@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Eleições 2018 - Presidente
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<style>
+  .ui-datatable table {
+  border-collapse:collapse;
+  width:100%;
+  }
+  
+  .candList{
+      width:100%;
+      color: #727272;
+  }
+  
+  tr.item{
+      border-bottom:1px solid #dddddd;
+  }
+  
+  .backgroundItem{
+  
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  }
+  
+  @media only screen and (min-width: 767px) {
+      span{
+          font-size: 35px;
+      }
+      .infoCand{
+          font-size: 35px;
+      }
+      .est{
+          font-weight: bold;
+          font-size: 20px;
+      }
+  }
+  
+  @media only screen and (max-width: 375px) {
+      span{
+          font-size: 14px;
+      }
+      .infoCand{
+          font-size: 16px;
+          font-weight: bold;
+      }
+      .est{
+          font-weight: bold;
+          font-size: 10px;
+      }
+  }
+
+  ion-avatar,
+ion-avatar > img{
+    
+    height:7rem;
+    width:7rem;
+}
+  
+  </style>
+  <div style="border: 1px solid #777; text-align: center; padding: 30px;">
+  Eleições 2018 - Presidente
+  </div>
+  
+  <ion-content>
+  <table style="width:100%">
+    <ion-list>
+    <ion-item *ngFor="let items of candidatos" class="candList backgroundItem">
+            <tr class="item" width="100%">
+                <td>
+                    <div style="padding:6px;">
+                    
+                    <ion-avatar item-start>
+                      <img src="{{items.avatar}}">
+                    </ion-avatar>  
+                    </div>
+                </td>
+            <td width="90%" class="infoCand"> 
+                {{items.nome}} - {{items.numero}}<br>
+                <span style="font-weight:bold;">{{items.partido}}</span><br>
+                
+                <span class="est">
+                    VOTOS: <span class="glyphicon glyphicon-info-sign"></span>
+                </span>
+            </td>
+            </tr>
+  </ion-item>
+  </ion-list>
+  
+  </table>
+</ion-content>

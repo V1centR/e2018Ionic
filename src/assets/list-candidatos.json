@@ -1,0 +1,165 @@
+[
+	{
+		"id": 1,
+		"nome": "JAIR BOLSONARO",
+		"partido": "PSL",
+		"vice": "Gal Mourão",
+		"idade": "60",
+		"proposta": "Segurança, Redução de ministérios, Combate à corrupção, Saúde, Economia",
+		"numero": "17",
+		"avatar": "https://ftp.bocaonews.com.br/fotos/bocao_noticias/188132/IMAGEM_NOTICIA_0.jpg",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "4.654.878"
+	},
+
+	{
+		"id": 2,
+		"nome": "LULA",
+		"partido": "PT",
+		"vice": "Fernando Haddad",
+		"idade": "60",
+		"projeto": "Direitos Sociais, Desenvolvimento, Democracia",
+		"numero": "13",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "0",
+		"votos": "0"
+	},
+
+	{
+		"id": 3,
+		"nome": "MARINA SILVA",
+		"partido": "Rede",
+		"vice": "Eduardo Jorge",
+		"idade": "60",
+		"projeto": "Sustentabilidade, Educação, Saneamento, Cultura, Tecnologia...",
+		"numero": "18",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "3.256.798"
+	},
+
+	{
+		"id": 4,
+		"nome": "HENRIQUE MEIRELLES",
+		"partido": "MDB",
+		"vice": "Germano Rigotto",
+		"idade": "73",
+		"projeto": "Segurança, Saúde, Emprego, Educação, Infraestrutura",
+		"numero": "15",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "304.325"
+	},
+
+	{
+		"id": 5,
+		"nome": "GERALDO ALCKMIN",
+		"partido": "PSDB",
+		"vice": "Ana Amélia",
+		"idade": "65",
+		"projeto": "Segurança, Combate a corrupção, Reforma política, Economia, Educação, Infraestrutura",
+		"numero": "45",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "3.742.336"
+	},
+
+	{
+		"id": 6,
+		"nome": "CIRO GOMES",
+		"partido": "PDT",
+		"vice": "Kátia Abreu - PDT",
+		"idade": "60",
+		"projeto": "Reformas, Emprego, Habitação, Tecnologia, Educação, Saúde",
+		"numero": "12",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "1.777.149"
+	},
+
+	{
+		"id": 7,
+		"nome": "ALVARO DIAS",
+		"partido": "19",
+		"vice": "Paulo Rabelo",
+		"idade": "73",
+		"projeto": "Sociedade, Economia, Instituições",
+		"numero": "30",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "878.145"
+	},
+
+	{
+		"id": 8,
+		"nome": "EYMAEL",
+		"partido": "DC",
+		"vice": "Helvio Costa",
+		"idade": "60",
+		"projeto": "Desenvolvimento, Família, Reformas, Segurança, Educação...",
+		"numero": "27",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "215.233"
+	},
+	{
+		"id": 10,
+		"nome": "GUILHERME BOULOS",
+		"partido": "PSOL",
+		"vice": "Sonia Guajajara - PSOL",
+		"idade": "36",
+		"projeto": "Economia, Desenvolvimento, Instituições, Segurança, Emprego",
+		"numero": "50",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "1"
+	},
+	{
+		"id": 11,
+		"nome": "JOÃO AMOÊDO",
+		"partido": "NOVO",
+		"vice": "Prof Christian",
+		"idade": "56",
+		"projeto": "Educação, Segurança, Saúde, Previdência, Política externa",
+		"numero": "30",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "157.668"
+	},
+	{
+		"id": 12,
+		"nome": "JOÃO GOULART FILHO",
+		"partido": "PPL",
+		"vice": "Léo da Silva Alves - PPL",
+		"idade": "61",
+		"projeto": "Economia, Reformas, Ciência e Tecnologia",
+		"numero": "54",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "77.485"
+	},
+	{
+		"id": 13,
+		"nome": "VERA",
+		"partido": "PSTU",
+		"vice": "Hertz - PSTU",
+		"idade": "52",
+		"projeto": "Trabalho, Habitação, Saúde",
+		"numero": "16",
+		"avatar": "assets/generic-avatar.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"status": "1",
+		"votos": "44.223"
+	}
+]
